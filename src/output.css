@@ -278,11 +278,9 @@
   .border-indigo-300 {
     border-color: var(--color-indigo-300);
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
+  /* .bg-[#] removed due to invalid color value */
   .bg-\[\#text-purple-100\] {
-    background-color: #text-purple-100;
+    background-color: var(--color-purple-100);
   }
   .bg-blue-300 {
     background-color: var(--color-blue-300);
