@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+
+
+.grid-child{
+      @apply bg-pink-100 p-3 sm:p-6 md:p-10 max-w-6xl mx-auto;
+}
+
+.div-class-first{
+   @apply bg-gradient-to-r from-pink-200 via-purple-100 to-pink-400 shadow-xl rounded-2xl p-4 sm:p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-6 items-center;
+}
+   
+ 
+.grind-child{
+   @apply font-serif text-xl sm:text-3xl md:text-5xl font-bold tracking-wide text-gray-900 leading-snug;
+}
+ 
+.h3-class{
+   @apply font-serif text-xs sm:text-sm md:text-lg text-gray-700;
+    
+}
+
+.h2-class{
+  @apply  text-base sm:text-xl md:text-3xl font-semibold text-gray-800 border-b border-gray-300 pb-2;
+}
+
+.p-class{
+    @apply italic text-xs sm:text-base md:text-lg font-normal tracking-tight leading-relaxed text-justify text-gray-700 indent-6;
+}
+
+.h1-class{
+    @apply text-center text-2xl md:text-4xl  font-bold font-serif text-gray-800 mb-6;
+}
+
+.div-class-second{
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+    @apply p-5 bg-pink-200 rounded-xl shadow-md text-center font-semibold;
+
+}
